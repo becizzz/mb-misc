@@ -1,0 +1,13 @@
+diff --git a/composer.json b/composer.json
+index 51ea6fc..a02d98b 100644
+--- a/composer.json
++++ b/composer.json
+@@ -3,7 +3,7 @@
+     "description": "Provide tools to integrate elasticsearch with Drupal.",
+     "type": "drupal-module",
+     "require": {
+-        "elasticsearch/elasticsearch": "^2.1"
++        "elasticsearch/elasticsearch": "~2.1 || ~5.0"
+     },
+     "suggest": {
+         "jsq/amazon-es-php": "Amazon elasticseach PHP framework",
